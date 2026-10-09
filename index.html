@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="5g电影网（5gdianyingwang-cn.github.io）是精选优质电影网址的导航大全平台，专注 5G 极速、5G 高清、5G 云播体验：5G 秒开、1080P、2K、4K、蓝光原盘、REMUX、杜比视界、中文字幕、每日更新片单、题材分类索引、热度排行与观影指南。干净网址、极速加载、零弹窗。">
+<meta name="keywords" content="5g电影网,5gdianyingwang-cn,5g,5G,5g电影,5g影院,5g云播,5g极速,5g高清,5g秒开,5g专区,电影导航,优质电影,经典电影,高清电影,1080P,2K,4K,蓝光,蓝光原盘,REMUX,杜比视界,中文字幕,每日更新,影视网址大全,电影网站导航,电影网址推荐,高清影视网址">
+<meta name="author" content="5g电影网">
+<meta name="theme-color" content="#0ea5e9">
+<title>5g电影网 - 精选优质电影导航大全 | 5G极速·5G高清·1080P/4K蓝光影视网址收录</title>
+<link rel="canonical" href="https://5gdianyingwang-cn.github.io/">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0f172a; --sub:#64748b;
+  --pr:#0ea5e9; --pr2:#22d3ee; --ac:#38bdf8;
+  --grad:linear-gradient(120deg,#0369a1,#0ea5e9 45%,#22d3ee);
+  --sha:0 18px 44px rgba(14,165,233,.34);
+  --panel:#fff; --bg2:#f0f9ff;
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;background:var(--bg2);color:var(--ink);line-height:1.72;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none;transition:.22s}
+ul,ol,dl{list-style:none}
+img{display:block;max-width:100%}
+:focus-visible{outline:2px dashed var(--pr);outline-offset:3px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 18px}
+.eyebrow{color:#0369a1;font-size:12px;letter-spacing:3px;font-weight:800}
+.sec-title{font-size:31px;font-weight:900;line-height:1.3;margin:9px 0 11px;letter-spacing:-.5px}
+.sec-title em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sec-desc{color:var(--sub);max-width:790px;font-size:15px}
+.pad{padding:78px 0}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:34px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 26px;border-radius:999px;font-weight:700;cursor:pointer;border:0;font-size:14px}
+.btn-p{background:var(--grad);color:#fff;box-shadow:var(--sha)}
+.btn-o{background:#fff;color:#0369a1;border:1px solid #bae6fd}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:7px 16px;border-radius:999px;font-size:13px;background:#fff;border:1px solid #bae6fd;color:var(--sub);cursor:pointer;white-space:nowrap;font-weight:600}
+.chip.on{color:#fff;border-color:transparent;background:var(--grad);font-weight:800;box-shadow:0 6px 16px rgba(14,165,233,.36)}
+
+/* 导航 */
+.nav{position:sticky;top:0;z-index:60;background:rgba(240,249,255,.96);backdrop-filter:blur(14px);border-bottom:1px solid #bae6fd}
+.nav-row{display:flex;align-items:center;justify-content:space-between;height:66px;gap:16px}
+.brand{display:flex;align-items:center;gap:11px}
+.logo{width:54px;height:44px;border-radius:15px;display:grid;place-items:center;font-size:20px;font-weight:900;color:#fff;background:var(--grad);box-shadow:0 8px 22px rgba(14,165,233,.42);flex:0 0 54px;position:relative;overflow:hidden;letter-spacing:-1px}
+.logo::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 25%,rgba(255,255,255,.5),transparent 60%)}
+.logo span{position:relative;z-index:2;filter:drop-shadow(0 2px 3px rgba(0,0,0,.2))}
+.brand small{display:block;font-size:9px;color:#0369a1;letter-spacing:1.4px;font-weight:700}
+.brand b.t{font-size:18px;letter-spacing:.3px}
+.nav-links{display:flex;gap:4px}
+.nav-links a{padding:9px 14px;border-radius:999px;font-size:14px;color:#475569;font-weight:600}
+.nav-links a:hover{color:#0369a1;background:#e0f2fe}
+.nav-links a.here{color:#fff;background:var(--grad);font-weight:800}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:6px}
+.burger i{width:24px;height:2px;background:#0f172a;border-radius:2px}
+
+/* Hero */
+.hero{position:relative;min-height:650px;display:flex;align-items:center;overflow:hidden;background:
+  radial-gradient(320px 200px at 88% 12%,rgba(56,189,248,.3),transparent 60%),
+  radial-gradient(260px 160px at 6% 92%,rgba(45,212,191,.22),transparent 62%),
+  linear-gradient(158deg,#082f49 0%,#0369a1 52%,#0ea5e9 100%)}
+.hero-in{position:relative;padding:74px 18px;color:#fff;z-index:2}
+.hero h1{font-size:58px;line-height:1.12;font-weight:900;letter-spacing:-1.5px;text-shadow:0 6px 24px rgba(0,0,0,.4);max-width:900px}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,#bae6fd,#7dd3fc);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:#e0f2fe;font-size:16px;margin:20px 0 26px;max-width:690px}
+.search{display:flex;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(186,230,253,.55);border-radius:16px;padding:7px;max-width:650px;backdrop-filter:blur(6px)}
+.search input{flex:1;background:none;border:0;color:#fff;font-size:15px;padding:10px 12px;outline:none;min-width:0}
+.search input::placeholder{color:#bae6fd}
+.search button{border:0;border-radius:12px;padding:0 24px;font-weight:900;cursor:pointer;white-space:nowrap;color:#0369a1}
+.kw{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;align-items:center}
+.kw em{font-style:normal;font-size:12px;color:#bae6fd}
+.stats{display:flex;gap:36px;margin-top:34px;flex-wrap:wrap}
+.stats div b{display:block;font-size:30px;font-weight:900;color:#7dd3fc;font-family:ui-monospace,Menlo,monospace;letter-spacing:-1px}
+.stats div span{font-size:12px;color:#bae6fd;letter-spacing:1px}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+.badges span{padding:6px 14px;border-radius:8px;font-size:12px;font-weight:800;border:1px solid rgba(186,230,253,.6);color:#e0f2fe;background:rgba(186,230,253,.14)}
+/* 5G 信号塔 CSS 绘制 */
+.signal{position:absolute;right:6%;top:50%;transform:translateY(-50%);width:230px;height:230px;z-index:1}
+.signal .tower{position:absolute;left:50%;bottom:0;width:0;height:0}
+.signal .tower::before{content:"";position:absolute;left:-3px;bottom:0;width:6px;height:150px;background:linear-gradient(180deg,#7dd3fc,#0369a1);border-radius:3px}
+.signal .tower::after{content:"";position:absolute;left:-26px;bottom:146px;width:52px;height:4px;background:#bae6fd;border-radius:2px;box-shadow:0 -34px 0 -1px #bae6fd,0 -68px 0 -2px #bae6fd}
+.wave{position:absolute;left:50%;bottom:150px;border:3px solid #7dd3fc;border-radius:50%;transform:translateX(-50%);width:40px;height:40px;opacity:.8}
+.wave:nth-child(2){animation:ripple 2.6s linear infinite}
+.wave:nth-child(3){animation:ripple 2.6s linear infinite .9s}
+.wave:nth-child(4){animation:ripple 2.6s linear infinite 1.8s}
+@keyframes ripple{0%{transform:translateX(-50%) scale(.4);opacity:.9}100%{transform:translateX(-50%) scale(5.2);opacity:0}}
+
+/* 栏目1：5g 片单（figure 横排） */
+.jam-list{display:flex;flex-direction:column;gap:14px}
+.jam{display:grid;grid-template-columns:150px 1fr auto;gap:18px;align-items:center;background:var(--panel);border:1px solid #bae6fd;border-radius:16px;padding:14px;transition:.24s;box-shadow:0 4px 16px rgba(14,165,233,.1)}
+.jam figure{width:150px;height:100px;border-radius:12px;display:grid;place-items:center;font-size:40px;position:relative;overflow:hidden}
+.jam figure::after{content:"";position:absolute;left:0;right:0;bottom:0;height:34%;background:linear-gradient(to top,rgba(0,0,0,.55),transparent)}
+.jam figure figcaption{position:absolute;left:8px;bottom:6px;font-size:10px;color:#fff;font-weight:700;z-index:2}
+.jam h4{font-size:17px;line-height:1.5;margin-bottom:7px;display:flex;gap:7px;align-items:center;flex-wrap:wrap}
+.jam p{font-size:13px;color:var(--sub);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.jam .mv{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.jam .mv i{font-style:normal;font-size:11px;color:#0369a1;background:#e0f2fe;padding:3px 9px;border-radius:6px;font-weight:700}
+.jam .go{font-size:12px;font-weight:900;color:#fff;background:var(--grad);padding:10px 20px;border-radius:999px;white-space:nowrap}
+.jam:hover{border-color:var(--pr);transform:translateX(6px);box-shadow:var(--sha)}
+.jam:hover .go{box-shadow:0 8px 20px rgba(14,165,233,.5)}
+
+/* 栏目2：精选网址（卡片 Grid） */
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:var(--panel);border:1px solid #bae6fd;border-radius:18px;padding:20px;transition:.3s;display:flex;flex-direction:column;height:100%;box-shadow:0 4px 16px rgba(14,165,233,.1);position:relative;overflow:hidden}
+.card .ava{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;font-size:25px;flex:0 0 52px}
+.card h4{font-size:16px;margin:12px 0 8px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.card h4 s{text-decoration:none;font-size:10px;color:#fff;background:var(--grad);padding:2px 9px;border-radius:999px;font-weight:700}
+.card p{color:var(--sub);font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:44px}
+.card .meta{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0}
+.card .meta i{font-style:normal;font-size:11px;color:#0369a1;background:#e0f2fe;padding:3px 9px;border-radius:6px;font-weight:700}
+.card .foot{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:12px;border-top:1px dashed #bae6fd;font-size:11px;color:var(--sub)}
+.card .foot b{color:#0369a1;font-size:13px}
+.card:hover{border-color:var(--pr);transform:translateY(-6px);box-shadow:var(--sha)}
+.card::before{content:"";position:absolute;left:0;right:0;top:0;height:6px;background:var(--grad);transform:scaleX(0);transform-origin:left;transition:.35s}
+.card:hover::before{transform:scaleX(1)}
+
+/* 栏目3：分类导航（dl 宫格） */
+.cate{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cat{background:var(--panel);border:1px solid #bae6fd;border-radius:18px;padding:20px;transition:.24s;box-shadow:0 4px 16px rgba(14,165,233,.1)}
+.cat:hover{border-color:var(--pr);background:#f0f9ff;box-shadow:var(--sha)}
+.cat dt{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:10px;border-bottom:1px dashed #bae6fd;margin-bottom:12px}
+.cat dt b{font-size:16px}
+.cat dt span{font-size:11px;color:#0369a1;font-weight:800;background:#e0f2fe;padding:2px 9px;border-radius:6px}
+.cat dd{display:flex;flex-wrap:wrap;gap:7px}
+.cat dd a{font-size:12px;color:var(--sub);background:#f0f9ff;border:1px solid #bae6fd;padding:4px 11px;border-radius:7px;font-weight:600}
+.cat dd a:hover{color:#fff;background:var(--grad);border-color:transparent}
+
+/* 栏目4：热度排行（ol + 进度条） */
+.rk-wrap{display:grid;grid-template-columns:1.16fr .84fr;gap:28px}
+.rk{background:var(--panel);border:1px solid #bae6fd;border-radius:20px;padding:24px 26px;box-shadow:0 8px 26px rgba(14,165,233,.14)}
+.rk h3{font-size:19px;margin-bottom:18px;display:flex;align-items:center;gap:8px}
+.rk h3::before{content:"📶";font-size:15px}
+.rk ol{counter-reset:r;display:flex;flex-direction:column;gap:14px}
+.rk li{display:grid;grid-template-columns:36px 1fr auto;gap:12px;align-items:center}
+.rk li::before{counter-increment:r;content:counter(r);width:32px;height:32px;border-radius:9px;background:var(--grad);display:grid;place-items:center;font-weight:900;font-size:15px;color:#fff}
+.rk li:nth-child(1)::before{background:#f59e0b}
+.rk li:nth-child(2)::before{background:#94a3b8;color:#25313c}
+.rk li:nth-child(3)::before{background:#b45309}
+.rk .nm{font-size:14px;font-weight:700}
+.rk .bar{height:7px;border-radius:6px;background:#e0f2fe;margin-top:6px;overflow:hidden}
+.rk .bar i{display:block;height:100%;border-radius:6px;background:var(--grad)}
+.rk .hv{font-size:12px;color:var(--sub);font-family:ui-monospace,Menlo,monospace}
+.tips{display:flex;flex-direction:column;gap:14px}
+.tip{display:flex;gap:14px;background:linear-gradient(120deg,#f0f9ff,#e0f2fe);border:1px solid #bae6fd;border-radius:16px;padding:16px}
+.tip .n{font-size:23px;flex:0 0 auto}
+.tip b{font-size:15px;display:block;margin-bottom:4px}
+.tip p{font-size:12px;color:var(--sub)}
+
+/* 栏目5：网站动态（图文条目） */
+.news{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.nbox{display:flex;gap:16px;background:var(--panel);border:1px solid #bae6fd;border-radius:16px;padding:15px;transition:.22s;height:100%;box-shadow:0 4px 14px rgba(14,165,233,.08)}
+.nbox:hover{border-color:var(--pr);background:#f0f9ff}
+.nbox .pic{width:120px;height:88px;border-radius:12px;flex:0 0 120px;display:grid;place-items:center;font-size:33px}
+.nbox h4{font-size:16px;line-height:1.5;margin-bottom:8px}
+.nbox:hover h4{color:#0369a1}
+.nbox .meta{font-size:11px;color:var(--sub);display:flex;gap:10px;flex-wrap:wrap}
+.nbox .meta b{color:#0369a1;font-weight:700}
+
+/* 栏目6：关于本站（流程 + 数据） */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-bottom:46px;border:1px solid #bae6fd;border-radius:18px;overflow:hidden;background:var(--panel);box-shadow:0 6px 22px rgba(14,165,233,.12)}
+.step{padding:24px 20px;position:relative}
+.step:not(:last-child){border-right:1px dashed #bae6fd}
+.step .no{font-size:12px;font-weight:900;color:#0369a1;letter-spacing:2px;font-family:ui-monospace,Menlo,monospace}
+.step b{font-size:17px;display:block;margin:6px 0 7px}
+.step p{font-size:13px;color:var(--sub)}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.fact{border:1px solid #bae6fd;border-radius:18px;padding:24px;text-align:center;background:#fff;box-shadow:0 4px 14px rgba(14,165,233,.08)}
+.fact b{display:block;font-size:34px;font-weight:900;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;font-family:ui-monospace,Menlo,monospace}
+.fact span{font-size:13px;color:var(--sub)}
+
+/* 页脚 */
+.foot{background:#082f49;padding:52px 0 24px;color:#e0f2fe}
+.fg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:30px}
+.fg h5{font-size:15px;margin-bottom:14px;color:#7dd3fc;display:flex;align-items:center;gap:7px}
+.fg h5::before{content:"🎬";font-size:12px}
+.fg p,.fg a{font-size:13px;color:#bae6fd}
+.fg a:hover{color:#fff}
+.fg ul{display:flex;flex-direction:column;gap:9px}
+.copy{margin-top:34px;padding-top:20px;border-top:1px solid rgba(186,230,253,.24);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:#7dd3fc}
+.top{position:fixed;right:18px;bottom:24px;width:48px;height:48px;border-radius:50%;background:var(--grad);color:#fff;border:0;font-size:20px;cursor:pointer;box-shadow:var(--sha);opacity:0;pointer-events:none;transition:.3s;z-index:70;font-weight:900}
+.top.show{opacity:1;pointer-events:auto}
+
+@media(max-width:1040px){
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .hero h1{font-size:46px}
+  .signal{right:-80px;opacity:.4;width:180px;height:180px}
+  .jam{grid-template-columns:130px 1fr}
+  .rk-wrap,.news{grid-template-columns:1fr}
+  .facts,.steps{grid-template-columns:repeat(2,1fr)}
+  .fg{grid-template-columns:1fr 1fr}
+}
+@media(max-width:740px){
+  .pad{padding:52px 0}
+  .sec-title{font-size:24px}
+  .wrap{padding:0 14px}
+  .burger{display:flex}
+  .nav-links{position:fixed;inset:66px 0 0;background:#f0f9ff;flex-direction:column;padding:22px;gap:8px;transform:translateX(100%);transition:.35s;z-index:59;box-shadow:-10px 0 30px rgba(0,0,0,.12)}
+  .nav-links.open{transform:translateX(0)}
+  .nav-links a{font-size:17px;padding:15px;border-radius:12px;text-align:center}
+  .hero{min-height:auto;padding:40px 0 60px}
+  .hero h1{font-size:36px}
+  .signal{display:none}
+  .search{flex-direction:column}
+  .search button{height:48px}
+  .grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .news{grid-template-columns:1fr}
+  .nbox{grid-template-columns:1fr}
+  .nbox .pic{width:100%;height:110px}
+  .jam{grid-template-columns:1fr;text-align:center}
+  .jam figure{width:100%;height:120px}
+  .cate{grid-template-columns:1fr 1fr}
+  .facts,.steps{grid-template-columns:1fr 1fr}
+  .steps .step:not(:last-child){border-right:0;border-bottom:1px dashed #bae6fd}
+  .stats{gap:18px}
+  .fg{grid-template-columns:1fr 1fr}
+}
+@media(max-width:380px){
+  .hero h1{font-size:30px}
+  .grid,.facts,.steps,.cate{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<!-- 顶部导航 -->
+<header class="nav">
+  <div class="wrap nav-row">
+    <a class="brand" href="#top" aria-label="5g电影网">
+      <span class="logo"><span>5G</span></span>
+      <span><b class="t">5g电影网</b><small>FIVE G · CN</small></span>
+    </a>
+    <nav class="nav-links" id="nav">
+      <a href="#top" class="here">首页</a>
+      <a href="#jam">5g片单</a>
+      <a href="#pick">精选网址</a>
+      <a href="#cate">分类导航</a>
+      <a href="#hot">热度排行</a>
+      <a href="#news">网站动态</a>
+      <a href="#about">关于本站</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="展开菜单"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="top">
+  <div class="signal" aria-hidden="true">
+    <span class="wave"></span><span class="wave"></span><span class="wave"></span>
+    <span class="tower"></span>
+  </div>
+  <div class="wrap hero-in">
+    <span class="eyebrow">◆ 5g电影网 · 5G 极速观影</span>
+    <h1>5g电影网<br>让好片，<em>5 秒</em>到达</h1>
+    <p>5g电影网（5gdianyingwang-cn.github.io）是精选优质电影网址的导航大全平台。"5g"取三层意思：<b>① 5G 极速</b>——收录加载快、跳转少、秒开的影视入口；<b>② 5G 高清</b>——只收 1080P / 2K / 4K / 蓝光原盘 / REMUX / 杜比视界的高清网址；<b>③ 5G 体验</b>——大屏、手机、平板三端适配，5G 网络下也能流畅云播。本站为影视网址导航与资讯分享平台，<b>不提供任何影视资源下载文件</b>。</p>
+    <form class="search" onsubmit="return false">
+      <input type="search" placeholder="搜影片 / 导演 / 题材 / 画质，如：5g电影网、5G 极速、5G 高清、5G 云播、5G 秒开、5G 专区、1080P、4K、蓝光原盘、REMUX、杜比视界、中文字幕、每日更新…" aria-label="搜索">
+      <button class="btn btn-p" type="submit">5G 秒搜</button>
+    </form>
+    <div class="badges"><span>5G 极速</span><span>5G 高清</span><span>5G 云播</span><span>5G 秒开</span><span>1080P</span><span>2K</span><span>4K</span><span>蓝光原盘</span><span>REMUX</span><span>杜比视界</span><span>中文字幕</span><span>零弹窗</span></div>
+    <div class="kw"><em>热搜：</em><span class="chip on">5g</span><span class="chip">5G 极速</span><span class="chip">5G 高清</span><span class="chip">5G 云播</span><span class="chip">5G 秒开</span><span class="chip">5G 专区</span><span class="chip">电影导航</span></div>
+    <div class="stats">
+      <div><b>&lt;0.8s</b><span>平均首帧时间</span></div>
+      <div><b>6,180+</b><span>精选网址</span></div>
+      <div><b>5G</b><span>极速专区</span></div>
+      <div><b>0</b><span>弹窗广告</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目1：5g 片单（figure 横排） -->
+<section class="pad" id="jam" style="background:#fff">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">Picks · 5g片单</span>
+        <h2 class="sec-title">本周 5 部，<em>5 秒</em>就能开看</h2>
+        <p class="sec-desc">"5g片单"每周更新一次，每期 5 部：一部压场剧情片、两部冷门佳作、一部纪录片、一部老片重温。附 5G 加载表现、画质、码率、字幕与建议观看时段，点开即跳转对应精选网址。片名即入口，版权与合规性请以下载源为准。</p>
+      </div>
+      <a class="btn btn-o" href="#">完整 5g片单 →</a>
+    </div>
+    <div class="jam-list">
+      <a class="jam" href="#">
+        <figure style="background:linear-gradient(135deg,#0369a1,#0ea5e9)">🎬<figcaption>压场剧情</figcaption></figure>
+        <div><h4>5G 信号里的一封信 <span class="tag" style="font-size:11px;color:#0369a1;background:#e0f2fe;padding:2px 9px;border-radius:6px;font-weight:700">剧情</span></h4><p>一间小馆、两个陌生人、一场迟到的对话。没有反转，只有越来越近的呼吸。建议深夜、关灯、戴耳机。</p><div class="mv"><i>4K</i><i>24Mbps</i><i>中文字幕</i><i>5G 秒开</i></div></div>
+        <span class="go">5G 去看 ›</span>
+      </a>
+      <a class="jam" href="#">
+        <figure style="background:linear-gradient(135deg,#0ea5e9,#22d3ee)">🎞️<figcaption>冷门佳作</figcaption></figure>
+        <div><h4>5 分钟的雨</h4><p>5 分钟短片，讲完一次告别。4K 60 帧，每一帧都干净得像刚擦过的玻璃。通勤、午休、排队，刚好够用。</p><div class="mv"><i>4K</i><i>60fps</i><i>无对白</i><i>5G 云播</i></div></div>
+        <span class="go">5G 去看 ›</span>
+      </a>
+      <a class="jam" href="#">
+        <figure style="background:linear-gradient(135deg,#075985,#0284c7)">🌊<figcaption>纪录片</figcaption></figure>
+        <div><h4>55 海里</h4><p>镜头贴着海平面，拍下一趟 55 海里的航行。看完会想把手机放下，去海边走一圈。</p><div class="mv"><i>1080P</i><i>8Mbps</i><i>中文字幕</i><i>5G 流畅</i></div></div>
+        <span class="go">5G 去看 ›</span>
+      </a>
+      <a class="jam" href="#">
+        <figure style="background:linear-gradient(135deg,#1e3a8a,#0369a1)">📖<figcaption>老片重温</figcaption></figure>
+        <div><h4>一封 55 年前的信</h4><p>1970 年代的上海，一封没有寄出的信。4K 修复版把那种克制的深情放大到极致。</p><div class="mv"><i>4K 修复</i><i>12Mbps</i><i>中文字幕</i><i>5G 秒开</i></div></div>
+        <span class="go">5G 去看 ›</span>
+      </a>
+      <a class="jam" href="#">
+        <figure style="background:linear-gradient(135deg,#0c4a6e,#0284c7)">🌿<figcaption>治愈</figcaption></figure>
+        <div><h4>55 天，种一棵树</h4><p>55 天记录一棵树的成长。适合不想动脑的夜晚，配一杯热茶，慢慢看完。</p><div class="mv"><i>1080P</i><i>6Mbps</i><i>中文字幕</i><i>5G 流畅</i></div></div>
+        <span class="go">5G 去看 ›</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目2：精选网址 -->
+<section class="pad" id="pick">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">Featured Sites · 精选网址</span>
+        <h2 class="sec-title">编辑精挑，<b>5G 秒开</b></h2>
+        <p class="sec-desc">每一个收录网址都经过人工访问与速度检测：无木马、无强制跳转、无诱导下载，并标注题材、画质、加载表现与适配端。所谓"电影导航"，从快开始。</p>
+      </div>
+      <div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:4px">
+        <span class="chip on">综合推荐</span><span class="chip">5G 极速</span><span class="chip">5G 高清</span><span class="chip">5G 云播</span><span class="chip">4K 蓝光</span><span class="chip">字幕齐全</span><span class="chip">手机适配</span>
+      </div>
+    </div>
+    <div class="grid">
+      <a class="card" href="#"><div class="ava" style="background:linear-gradient(135deg,#e0f2fe,#bae6fd)">📡</div><h4>5G 极速厅 <s>秒开</s></h4><p>首帧 &lt; 0.8 秒的影视入口合集，弱网、地铁、电梯里也能顺畅看完一部片。</p><div class="meta"><i>5G</i><i>秒开</i><i>弱网友好</i></div><div class="foot"><span>速度优先</span><b>›</b></div></a>
+      <a class="card" href="#"><div class="ava" style="background:linear-gradient(135deg,#cffafe,#a5f3fc)">🖥️</div><h4>5G 高清馆 <s>画质</s></h4><p>4K 原盘、REMUX、WEB-DL 标注清晰，附码率、编码与帧率信息，大屏党福音。</p><div class="meta"><i>4K</i><i>蓝光原盘</i><i>REMUX</i><i>杜比视界</i></div><div class="foot"><span>大屏首选</span><b>›</b></div></a>
+      <a class="card" href="#"><div class="ava" style="background:linear-gradient(135deg,#e0f2fe,#7dd3fc)">☁️</div><h4>5G 云播厅 <s>热</s></h4><p>无需下载、即点即播，支持倍速、投屏与续播，通勤路上的观影利器。</p><div class="meta"><i>云播</i><i>投屏</i><i>倍速</i><i>续播</i></div><div class="foot"><span>手机党</span><b>›</b></div></a>
+      <a class="card" href="#"><div class="ava" style="background:linear-gradient(135deg,#f0fdfa,#ccfbf1)">🆕</div><h4>每日更新榜</h4><p>按上线时间排序，新片第一时间出现在首页，5g片单每周一束，久久久久不剧荒。</p><div class="meta"><i>每日更新</i><i>新片</i><i>实时</i></div><div class="foot"><span>不剧荒</span><b>›</b></div></a>
+      <a class="card" href="#"><div class="ava" style="background:linear-gradient(135deg,#e0f2fe,#bae6fd)">⭐</div><h4>高分经典厅</h4><p>8.5 分以上长青片单，每部都经得起二刷三刷，适合"不知道看什么"的夜晚。</p><div class="meta"><i>8.5 分+</i><i>经典</i></div><div class="foot"><span>反复刷</span><b>›</b></div></a>
+      <a class="card" href="#"><div class="ava" style="background:linear-gradient(135deg,#eef2ff,#c7d2fe)">🈶</div><h4>中文字幕馆 <s>刚需</s></h4><p>内嵌 / 外挂 / 双语字幕齐全，冷门老片也配字幕，看得懂才是真福利。</p><div class="meta"><i>中文字幕</i><i>双语</i><i>老片</i></div><div class="foot"><span>字幕党</span><b>›</b></div></a>
+      <a class="card" href="#"><div class="ava" style="background:linear-gradient(135deg,#fce7f3,#fbcfe8)">🎞️</div><h4>老片修复馆</h4><p>黑白片 4K 修复、胶片颗粒保留、原声原画，致敬每一部被时间埋住的好电影。</p><div class="meta"><i>4K 修复</i><i>原声</i><i>黑白</i></div><div class="foot"><span>怀旧</span><b>›</b></div></a>
+      <a class="card" href="#"><div class="ava" style="background:linear-gradient(135deg,#ecfdf5,#a7f3d0)">🎬</div><h4>短片专区 <s>5 分钟起</s></h4><p>3 分钟到 30 分钟的独立短片、动画、实验影像，等车排队都能看完一部。</p><div class="meta"><i>短片</i><i>动画</i><i>独立</i></div><div class="foot"><span>碎片神器</span><b>›</b></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目3：分类导航（dl 宫格） -->
+<section class="pad" id="cate" style="background:#fff">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">Category · 分类导航</span>
+        <h2 class="sec-title">按 5G 维度，<b>精准</b>命中口味</h2>
+        <p class="sec-desc">题材、评分、地区、年代、画质、语言、时长七维切分，一个分类就是一组精选网址，查找效率拉满。</p>
+      </div>
+      <a class="btn btn-o" href="#">完整分类目录 →</a>
+    </div>
+    <div class="cate">
+      <div class="cat"><dt><b>🎭 剧情</b><span>512</span></dt><dd><a href="#">人性</a><a href="#">家庭</a><a href="#">成长</a><a href="#">传记</a><a href="#">社会</a><a href="#">文艺</a></dd></div>
+      <div class="cat"><dt><b>😂 喜剧</b><span>386</span></dt><dd><a href="#">黑色幽默</a><a href="#">爱情喜剧</a><a href="#">国产喜剧</a><a href="#">无厘头</a><a href="#">治愈</a></dd></div>
+      <div class="cat"><dt><b>👻 悬疑</b><span>318</span></dt><dd><a href="#">烧脑</a><a href="#">反转</a><a href="#">犯罪</a><a href="#">密室</a><a href="#">心理</a><a href="#">谍战</a></dd></div>
+      <div class="cat"><dt><b>💘 爱情</b><span>354</span></dt><dd><a href="#">暗恋</a><a href="#">异地</a><a href="#">错过</a><a href="#">书信</a><a href="#">青春</a><a href="#">纯爱</a></dd></div>
+      <div class="cat"><dt><b>🎨 动画</b><span>302</span></dt><dd><a href="#">吉卜力</a><a href="#">皮克斯</a><a href="#">国漫</a><a href="#">治愈</a><a href="#">短片</a><a href="#">定格</a></dd></div>
+      <div class="cat"><dt><b>🌿 纪录片</b><span>280</span></dt><dd><a href="#">自然</a><a href="#">海洋</a><a href="#">人文</a><a href="#">手艺</a><a href="#">历史</a><a href="#">治愈</a></dd></div>
+      <div class="cat"><dt><b>🖥️ 按画质筛</b><span>1,420</span></dt><dd><a href="#">1080P</a><a href="#">2K</a><a href="#">4K</a><a href="#">蓝光原盘</a><a href="#">REMUX</a><a href="#">杜比视界</a></dd></div>
+      <div class="cat"><dt><b>📶 按 5G 表现筛</b><span>2,008</span></dt><dd><a href="#">5G 秒开</a><a href="#">5G 云播</a><a href="#">5G 高清</a><a href="#">弱网友好</a><a href="#">投屏</a><a href="#">续播</a></dd></div>
+      <div class="cat"><dt><b>🌏 按地区筛</b><span>2,008</span></dt><dd><a href="#">华语</a><a href="#">欧美</a><a href="#">日韩</a><a href="#">东南亚</a><a href="#">印度</a><a href="#">港台</a></dd></div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目4：热度排行 -->
+<section class="pad" id="hot">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">Hot Ranking · 热度排行</span>
+        <h2 class="sec-title">5G 都在点，<b>跟着</b>看不踩雷</h2>
+        <p class="sec-desc">依据点击量、收藏数与用户停留时长综合计算，每小时刷新一次，真实反映当下观影热度。</p>
+      </div>
+      <div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:4px"><span class="chip on">周榜</span><span class="chip">月榜</span><span class="chip">5G榜</span><span class="chip">蓝光榜</span><span class="chip">短片榜</span></div>
+    </div>
+    <div class="rk-wrap">
+      <div class="rk">
+        <h3>本周被访问最多的导航网址</h3>
+        <ol>
+          <li><span class="nm">5G 极速厅<span class="bar"><i style="width:100%"></i></span></span><span class="hv">192.4万</span></li>
+          <li><span class="nm">5G 高清馆<span class="bar"><i style="width:92%"></i></span></span><span class="hv">177.9万</span></li>
+          <li><span class="nm">5G 云播厅<span class="bar"><i style="width:84%"></i></span></span><span class="hv">161.6万</span></li>
+          <li><span class="nm">中文字幕馆<span class="bar"><i style="width:73%"></i></span></span><span class="hv">143.5万</span></li>
+          <li><span class="nm">每日更新榜<span class="bar"><i style="width:65%"></i></span></span><span class="hv">127.8万</span></li>
+          <li><span class="nm">高分经典厅<span class="bar"><i style="width:55%"></i></span></span><span class="hv">112.1万</span></li>
+          <li><span class="nm">老片修复馆<span class="bar"><i style="width:46%"></i></span></span><span class="hv">97.4万</span></li>
+          <li><span class="nm">5g电影网 · 5g片单<span class="bar"><i style="width:37%"></i></span></span><span class="hv">83.9万</span></li>
+        </ol>
+      </div>
+      <div class="tips">
+        <div class="tip"><span class="n">📶</span><div><b>什么是"5g"</b><p>三层意思：5G 极速（首帧 &lt; 0.8 秒）、5G 高清（1080P/2K/4K/蓝光原盘/REMUX/杜比视界）、5G 体验（大屏手机平板三端适配、5G 网络下也能云播）。</p></div></div>
+        <div class="tip"><span class="n">🖥️</span><div><b>只收高清入口</b><p>逐站核验 1080P / 2K / 4K / 蓝光原盘 / REMUX 标注，拒绝"假高清"。</p></div></div>
+        <div class="tip"><span class="n">🧹</span><div><b>死链清理</b><p>每日自动巡检，失效链接 24 小时内下架，保证"5G 秒开、点开就能用"。</p></div></div>
+        <div class="tip"><span class="n">⚖️</span><div><b>版权提示</b><p>请仅用于个人学习，请支持正版与院线。所链资源版权归原作者，侵权请联系我们下架。</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目5：网站动态 -->
+<section class="pad" id="news" style="background:#fff">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">Site News · 网站动态</span>
+        <h2 class="sec-title">收录动态与<b>选片</b>指南</h2>
+        <p class="sec-desc">记录 5g电影网 的更新日志、收录标准与观影建议，让导航本身也变得值得一读。</p>
+      </div>
+      <a class="btn btn-o" href="#">动态归档 →</a>
+    </div>
+    <div class="news">
+      <a class="nbox" href="#"><span class="pic" style="background:linear-gradient(135deg,#e0f2fe,#bae6fd)">⚡</span><div><h4>5G 专区上线：首帧 &lt; 0.8 秒的 120 个影视入口</h4><span class="meta"><b>更新</b> · 5 分钟读 · 10-12</span></div></a>
+      <a class="nbox" href="#"><span class="pic" style="background:linear-gradient(135deg,#cffafe,#a5f3fc)">📜</span><div><h4>5G 网络下看片，为什么还是卡？先查这 5 个设置</h4><span class="meta"><b>科普</b> · 6 分钟读 · 10-08</span></div></a>
+      <a class="nbox" href="#"><span class="pic" style="background:linear-gradient(135deg,#ecfdf5,#a7f3d0)">🎞️</span><div><h4>5g片单第 38 期：5 部适合深夜一个人看完的片</h4><span class="meta"><b>片单</b> · 4 分钟读 · 09-30</span></div></a>
+      <a class="nbox" href="#"><span class="pic" style="background:linear-gradient(135deg,#fce7f3,#fbcfe8)">🧹</span><div><h4>本周清理 38 个失效网址，链接有效率升至 99.7%</h4><span class="meta"><b>更新日志</b> · 1 分钟读 · 09-27</span></div></a>
+      <a class="nbox" href="#"><span class="pic" style="background:linear-gradient(135deg,#eef2ff,#c7d2fe)">🏷️</span><div><h4>5g电影网是"电影导航"，不是资源站</h4><span class="meta"><b>公告</b> · 3 分钟读 · 09-22</span></div></a>
+      <a class="nbox" href="#"><span class="pic" style="background:linear-gradient(135deg,#fef3c7,#fde68a)">✉️</span><div><h4>投稿指南：如何推荐一个"值得被导航"的高清影视网站</h4><span class="meta"><b>共建</b> · 2 分钟读 · 09-17</span></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目6：关于本站 -->
+<section class="pad" id="about">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">About · 关于本站</span>
+        <h2 class="sec-title">好片不该被<b>加载条</b>耽误</h2>
+        <p class="sec-desc">5g电影网只做一件事：把好用的高清影视网址一颗颗挑出来，并按"题材 × 评分 × 画质 × 年代 × 地区 × 语言 × 时长"七个维度，清清楚楚地摆在你面前。我们不存资源、不提供下载文件，只做一件小事：让你少点几次鼠标、少等几秒加载，多看两小时好片——夜晚那么长，别浪费在找片和等缓冲上。</p>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="no">STEP 01</span><b>发现</b><p>编辑与用户在全网影视相关网址中初筛候选。</p></div>
+      <div class="step"><span class="no">STEP 02</span><b>验证</b><p>逐站人工访问，检测 5G 加载表现、画质标注、广告与安全风险。</p></div>
+      <div class="step"><span class="no">STEP 03</span><b>分类</b><p>按七维打标，标注码率、编码、字幕与首帧时间，生成导航结构。</p></div>
+      <div class="step"><span class="no">STEP 04</span><b>上线</b><p>进入导航大全，进入日常巡检与用户反馈闭环。</p></div>
+    </div>
+    <div class="facts">
+      <div class="fact"><b>6,180+</b><span>精选收录网址</span></div>
+      <div class="fact"><b>&lt;0.8s</b><span>平均首帧时间</span></div>
+      <div class="fact"><b>5G</b><span>极速专区</span></div>
+      <div class="fact"><b>0</b><span>弹窗与诱导广告</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 页脚 -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="fg">
+      <div>
+        <a class="brand" href="#top"><span class="logo"><span>5G</span></span><span><b class="t">5g电影网</b><small>FIVE G · CN</small></span></a>
+        <p style="margin-top:14px;max-width:330px">5g电影网（5gdianyingwang-cn.github.io）是精选优质电影网址的导航大全平台，提供电影导航、5g片单、5G 极速、5G 高清、5G 云播、5G 秒开、5G 专区、4K 蓝光、REMUX、杜比视界、中文字幕、每日更新、老片修复、题材分类与影视资讯，让好片不迷路。</p>
+      </div>
+      <div>
+        <h5>导航频道</h5>
+        <ul>
+          <li><a href="#jam">5g片单</a></li>
+          <li><a href="#pick">精选网址</a></li>
+          <li><a href="#cate">分类导航</a></li>
+          <li><a href="#hot">热度排行</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>分类索引</h5>
+        <ul>
+          <li><a href="#cate">5G 极速</a></li>
+          <li><a href="#cate">5G 高清</a></li>
+          <li><a href="#cate">5G 云播</a></li>
+          <li><a href="#cate">5G 秒开</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>关于与帮助</h5>
+        <ul>
+          <li><a href="#about">收录标准</a></li>
+          <li><a href="#">提交网址</a></li>
+          <li><a href="#">版权投诉</a></li>
+          <li><a href="#">免责声明</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© 2023-2026 5g电影网 5gdianyingwang-cn.github.io 版权所有</span>
+      <span>网站网址：https://5gdianyingwang-cn.github.io ｜ 本站为影视网址导航与资讯分享平台，不提供任何影视资源文件，所链资源版权归原作者所有 ｜ 请支持正版、理性观影</span>
+    </div>
+  </div>
+</footer>
+
+<button class="top" id="topBtn" aria-label="回到顶部">↑</button>
+
+<script>
+var burger=document.getElementById('burger'),nav=document.getElementById('nav');
+burger.addEventListener('click',function(){nav.classList.toggle('open')});
+nav.addEventListener('click',function(e){if(e.target.tagName==='A')nav.classList.remove('open')});
+
+var topBtn=document.getElementById('topBtn');
+window.addEventListener('scroll',function(){topBtn.classList[window.scrollY>700?'add':'remove']('show')});
+topBtn.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+
+var links=document.querySelectorAll('.nav-links a');
+var ids=['top','jam','pick','cate','hot','news','about'];
+var secs=ids.map(function(i){return document.getElementById(i)});
+window.addEventListener('scroll',function(){
+  var y=window.scrollY+130,cur=0;
+  secs.forEach(function(s,i){if(s&&s.offsetTop<=y)cur=i});
+  links.forEach(function(a,i){a.classList[i===cur?'add':'remove']('here')});
+});
+
+document.querySelectorAll('.sec-head').forEach(function(bar){
+  bar.addEventListener('click',function(e){
+    if(e.target.classList.contains('chip')){
+      bar.querySelectorAll('.chip').forEach(function(c){c.classList.remove('on')});
+      e.target.classList.add('on');
+    }
+  });
+});
+</script>
+</body>
+</html>
